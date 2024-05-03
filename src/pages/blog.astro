@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+
 const pageTitle = "My Astro Learning Blog";
 ---
 
@@ -10,6 +12,11 @@ const pageTitle = "My Astro Learning Blog";
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content="{Astro.generator}" />
     <title>{pageTitle}</title>
+    <style>
+        h1 {
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
